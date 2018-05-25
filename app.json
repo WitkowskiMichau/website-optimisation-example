@@ -1,0 +1,16 @@
+{
+  "name": "Example slow site",
+  "description": "Very slow site for optimisation",
+  "keywords": [],
+  "website": "https://github.com/WitkowskiMichau/website-optimisation-example",
+  "repository": "https://github.com/WitkowskiMichau/website-optimisation-example",
+  "logo": "",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "image": "heroku/nodejs"
+}

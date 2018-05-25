@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-image {
+  width: 100%;
+  height: 700px;
+  background: black url('http://wallpaperlepi.com/wp-content/uploads/2014/08/Big-Eye-Cat-Wallpaper-iPhone.jpg') no-repeat;
+  background-size: cover;
+}
+
+.cat-gallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-item{
+  border: 1px solid black;
+  flex: 50%;
+  max-width: 50%;
+  margin: 10px;
+}
+
+.cat-item-image{
+  margin-top: 8px;
+}
+
+.cat-item .cat-item-title{
+  padding: 20px;
+}

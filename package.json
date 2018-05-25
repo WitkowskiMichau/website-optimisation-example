@@ -1,0 +1,11 @@
+{
+  "name": "website-optimisation-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/WitkowskiMichau/website-optimisation-example",
+  "author": "Michal Witkowski @witkowskimichau",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.0"
+  }
+}
