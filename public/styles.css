@@ -17,8 +17,16 @@ h1, h2, h3, h4, h5, h6 {
 .big-image {
   width: 100%;
   height: 700px;
-  background: black url('http://wallpaperlepi.com/wp-content/uploads/2014/08/Big-Eye-Cat-Wallpaper-iPhone.jpg') no-repeat;
-  background-size: cover;
+  position: relative;
+}
+
+.big-image picture {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
 }
 
 .cat-gallery{
