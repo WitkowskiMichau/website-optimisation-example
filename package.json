@@ -6,7 +6,8 @@
   "author": "Michal Witkowski @witkowskimichau",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.0"
+    "express": "4.16.0",
+    "compression": "1.7.2"
   },
   "scripts": {
     "start": "node index.js"
